@@ -1,0 +1,239 @@
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+\hypersetup{
+    colorlinks=true,
+    filecolor=cyan,      
+    urlcolor=magenta,
+}
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    \textbf{\Huge \scshape Cédric Pascal-Emmanuel MANOUAN} \\ \vspace{1pt}
+    \small (+221) 78-596-89-83 $|$ \href{mailto:manouancedric@gmailcom}{\underline{manouancedric@gmail.com}} $|$ 
+    \href{https://www.linkedin.com/in/c%C3%A9dric-pascal-emmanuel-manouan-ba9ba1181/}{\underline{linkedin}} $|$
+    \href{https://github.com/dric2018/dric2018}{\underline{github.com/dric2018}} $|$
+    \href{https://dric2018.github.io/}{\underline{My portfolio}}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{\textbf{Education}}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Ecole Supérieure Africaine des TIC (ESATIC)}{Abidjan, Côte d'Ivoire}
+      {Bachelor of Computer Science : Systems, Computer Networks and telecommunications}{Oct. 2016 -- Sep. 2019}
+        
+      \vspace{8pt}\begin{minipage}[t]{.75\linewidth}
+        \paragraph{\textit{\underline{Major subjects}:}}
+        \textit{Applied mathematics, statistics, linear algebra, programming languages, data structures, 
+                operation research, operating systems, Object Oriented Programming, databases modeling, web development, electronics.
+        }
+           
+        \end{minipage}
+
+      \vspace{1pt}\resumeSubheading
+      {Lycée Municipal Simone Ehivet GBAGBO}{Abidjan, Côte d'Ivoire}
+      {Scientific baccalaureate}{Sep. 2009 -- July 2016}
+
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------
+\section{\textbf{Experience}}
+\resumeSubHeadingListStart
+    \resumeProjectHeading
+    {\textbf{Data science pratitionner / Community ambassador} $|$ \emph{Zindi africa}}{(April 2019 -- Present)}
+    \resumeItemListStart
+    \resumeItem{Participating in competitions and hackathons on the platform (username : \href{https://zindi.africa/users/I_am_Zeus_AI/competitions}{\textbf{I\_am\_Zeus\_AI}}), \\Top 100 among zindi data scientists}
+    \resumeItem{Co-lead of the platform development group (updates and new features)}
+    \resumeItem{Zindi ambassador from Côte d'Ivoire}
+    \resumeItemListEnd
+
+    \resumeSubheading
+      {End of cycle internship : Web/IoT/Machine Learning Developer}{April 2019 -- June 2019}
+      {Digital Solutions Project for the opening up of Rural Areas and E-Agriculture (PSNDEA)}{Abidjan, Côte d'Ivoire}
+      \resumeItemListStart
+      \resumeItem{Built an Internet of Things (IoT) system for data acquisition in a cassava field}
+      \resumeItem{Developed a REST CRUD API based on NodeJs and MySQL to store data from both sensors and farmers inputs}
+      \resumeItem{Developed a regression model to predict the yield of a given cassava field based on real-time and stored data}
+      \resumeItem{Deployed the machine leaning model to an edge device (Raspbery Pi 3) using tensorflowJS}
+      \resumeItemListEnd
+   
+
+% -----------Multiple Positions Heading-----------
+%    \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+%-------------------------------------------
+
+
+
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------
+\section{\textbf{Projects}}
+    \resumeSubHeadingListStart
+    \resumeProjectHeading
+        {\textbf{Zindi Competitions} $|$ \emph{Data science, Machine/Deep learning}}{April 2019 -- Present}
+        \resumeItemListStart
+        \resumeItem{Classify audio utterances in Luganda and English from Uganda (\textbf{7th/255} : \href{https://zindi.africa/competitions/giz-nlp-agricultural-keyword-spotter/leaderboard}{Team wakanda on the leaderboard}) }
+        \resumeItem{Predicted whether a person in an image is wearing a face mask (\textbf{3rd/160} : \href{https://zindi.africa/competitions/spot-the-mask-challenge}{Team TheCIA on the leadernoard}) }
+        \resumeItem{Built an AI system that can classify Tuberculosis and Normal X-Ray images \\for eucational purpose \hfill(\textbf{7th/104} : \href{https://zindi.africa/competitions/runmila-ai-institute-minohealth-ai-labs-tuberculosis-classification-via-x-rays-challenge/leaderboard}{Team DataLabCI on the leaderboard}) }
+    \resumeItemListEnd
+
+    \resumeProjectHeading
+        {\textbf{ESATIC internal project} $|$ \emph{Python, Django, Materialize CSS, PostgreSQL}}{(Nov. 2018 -- Feb. 2019)}
+        \resumeItemListStart
+        \resumeItem{Developed a CRUD API aimed to help health workers and NGO managing fast screening tests}
+    \resumeItemListEnd
+
+
+      \resumeProjectHeading
+          {\textbf{1st prize ESATIC Hackathon Level 2 (48h)} $|$ \emph{Python, Tensorflow, Deep learning, object detection}}{(May 2018)}
+          \resumeItemListStart
+            \resumeItem{Contributed to the development of a deep learning model to recognize west African bank notes and coins}
+          \resumeItemListEnd
+
+      \resumeProjectHeading
+          {\textbf{1st prize ESATIC Hackathon Level 1 (24h)} $|$ \emph{C++, Cryptography}}{(May 2017)}
+          \resumeItemListStart
+            \resumeItem{Contributed to research and writing in C++ the encryption algorithm behind an executable program}
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+
+
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{\textbf{Technical Skills}}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+        \textbf{Languages}{: Python, JavaScript, C/C++, SQL (Postgres), HTML/CSS, R, Latex} \\
+        \textbf{Frameworks/Librairies}{: Pytorch, libtorch, Tensorflow, Keras, Scikit-learn, Nodejs, Material-UI, Pandas, NumPy, Matplotlib, Seaborn, Open-cv, Xgboost, Catboost, Lightgbm, Transformers} \\
+        \textbf{Developer Tools}{: Git, Docker, Amazon EC2, VS Code, Jupyter notebooks, Google Collaboratory} \\
+    }}
+ \end{itemize}
+
+%
+%-----------INTERESTS-----------
+\section{\textbf{Interests, other skills and qualities}}
+\begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+        \textbf{Social}{: Knowledge sharing, motivation, mentoring, community building (Data Science Côte d'Ivoire)} \\
+        \textbf{Academic}{: Artificial Intelligence research, reading papers, teaching, deep learning models building and implementation} \\
+        \textbf{Sports}{: Basketball, football} \\
+        \textbf{Qualities}{: good team spirit, passionate, hard worker} \\
+
+    }}
+ \end{itemize}
+
+
+%-------------------------------------------
+\end{document}
