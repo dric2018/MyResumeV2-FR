@@ -13,7 +13,8 @@
 \usepackage[english]{babel}
 \usepackage{tabularx}
 \input{glyphtounicode}
-
+\usepackage{fontawesome}
+\usepackage[super]{nth}
 \hypersetup{
     colorlinks=true,
     filecolor=cyan,      
@@ -104,22 +105,20 @@
 \begin{document}
 
 %----------HEADING----------
-% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
-%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
-%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
-% \end{tabular*}
+ \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+   \vspace{1pt}\textbf{\href{https://dric2018.github.io/}{\Large Cédric Pascal-Emmanuel MANOUAN}} & \\
+    \faMapMarker \ \textbf{Location} : Dakar, SENEGAL  & \faEnvelope \ \textbf{Email} : \href{mailto:manouancedric@gmailcom}{manouancedric@gmail.com} \\
+                                                                                      
+    \faMale \  \textbf{Date of birth} : \nth{15} February 1999 (21 years old)     & \faMobile \ \textbf{Mobile} : \hfill  (+221) 78-596-89-83  \\
+                                                                              & \faGroup \ \textbf{Github} : \hfill \href{https://github.com/dric2018/dric2018}{dric2018}  \\
+                                                                              & \faLinkedinSquare \ \textbf{Linkedin} : \hfill \href{https://www.linkedin.com/in/c%C3%A9dric-pascal-emmanuel-manouan-ba9ba1181/}{Cédric P-E MANOUAN}
+                                                                                      
+  \end{tabular*}
 
-\begin{center}
-    \textbf{\Huge \scshape Cédric Pascal-Emmanuel MANOUAN} \\ \vspace{1pt}
-    \small (+221) 78-596-89-83 $|$ \href{mailto:manouancedric@gmailcom}{\underline{manouancedric@gmail.com}} $|$ 
-    \href{https://www.linkedin.com/in/c%C3%A9dric-pascal-emmanuel-manouan-ba9ba1181/}{\underline{linkedin}} $|$
-    \href{https://github.com/dric2018/dric2018}{\underline{github.com/dric2018}} $|$
-    \href{https://dric2018.github.io/}{\underline{My portfolio}}
-\end{center}
 
 
 %-----------EDUCATION-----------
-\section{\textbf{Education}}
+\section{\textbf{Education} \faMortarBoard}
   \resumeSubHeadingListStart
     \resumeSubheading
       {Ecole Supérieure Africaine des TIC (ESATIC)}{Abidjan, Côte d'Ivoire}
@@ -141,7 +140,7 @@
 
 
 %-----------EXPERIENCE-----------
-\section{\textbf{Experience}}
+\section{\textbf{Experience} \faBriefcase}
 \resumeSubHeadingListStart
     \resumeProjectHeading
     {\textbf{Data science pratitionner / Community ambassador} $|$ \emph{Zindi africa}}{(April 2019 -- Present)}
@@ -178,15 +177,16 @@
 
 
 %-----------PROJECTS-----------
-\section{\textbf{Projects}}
+\section{\textbf{Projects} \faLaptop}
     \resumeSubHeadingListStart
     \resumeProjectHeading
         {\textbf{Zindi Competitions} $|$ \emph{Data science, Machine/Deep learning}}{April 2019 -- Present}
         \resumeItemListStart
-        \resumeItem{Classify audio utterances in Luganda and English from Uganda (\textbf{7th/255} : \href{https://zindi.africa/competitions/giz-nlp-agricultural-keyword-spotter/leaderboard}{Team wakanda on the leaderboard}) }
-        \resumeItem{Predicted whether a person in an image is wearing a face mask (\textbf{3rd/160} : \href{https://zindi.africa/competitions/spot-the-mask-challenge}{Team TheCIA on the leadernoard}) }
-        \resumeItem{Built an AI system that can classify Tuberculosis and Normal X-Ray images \\for eucational purpose \hfill(\textbf{7th/104} : \href{https://zindi.africa/competitions/runmila-ai-institute-minohealth-ai-labs-tuberculosis-classification-via-x-rays-challenge/leaderboard}{Team DataLabCI on the leaderboard}) }
-    \resumeItemListEnd
+        \resumeItem{Classify audio utterances in Luganda and English from Uganda (\textbf{\nth{7}/255} : \href{https://zindi.africa/competitions/giz-nlp-agricultural-keyword-spotter/leaderboard}{Team wakanda on the leaderboard}) }
+        \resumeItem{Predicted whether a person in an image is wearing a face mask (\textbf{\nth{3}/160} : \href{https://zindi.africa/competitions/spot-the-mask-challenge}{Team TheCIA on the leadernoard}) }
+        \resumeItem{Built an AI system to classify Tuberculosis and Normal X-Ray images for eucational purpose \\ \hfill (\textbf{\nth{7}/104} : \href{https://zindi.africa/competitions/runmila-ai-institute-minohealth-ai-labs-tuberculosis-classification-via-x-rays-challenge/leaderboard}{Team DataLabCI on the leaderboard}) }
+        \vspace{2pt}
+        \resumeItemListEnd
 
     \resumeProjectHeading
         {\textbf{ESATIC internal project} $|$ \emph{Python, Django, Materialize CSS, PostgreSQL}}{(Nov. 2018 -- Feb. 2019)}
@@ -196,13 +196,13 @@
 
 
       \resumeProjectHeading
-          {\textbf{1st prize ESATIC Hackathon Level 2 (48h)} $|$ \emph{Python, Tensorflow, Deep learning, object detection}}{(May 2018)}
+          {\textbf{\nth{1} prize ESATIC Hackathon Level 2 (48h)} $|$ \emph{Python, Tensorflow, Deep learning, object detection}}{(May 2018)}
           \resumeItemListStart
             \resumeItem{Contributed to the development of a deep learning model to recognize west African bank notes and coins}
           \resumeItemListEnd
 
       \resumeProjectHeading
-          {\textbf{1st prize ESATIC Hackathon Level 1 (24h)} $|$ \emph{C++, Cryptography}}{(May 2017)}
+          {\textbf{\nth{1} prize ESATIC Hackathon Level 1 (24h)} $|$ \emph{C++, Cryptography}}{(May 2017)}
           \resumeItemListStart
             \resumeItem{Contributed to research and writing in C++ the encryption algorithm behind an executable program}
           \resumeItemListEnd
@@ -212,7 +212,7 @@
 
 %
 %-----------PROGRAMMING SKILLS-----------
-\section{\textbf{Technical Skills}}
+\section{\textbf{Technical Skills} \faLinux \ \faWindows \ \faApple\ \faLanguage}
  \begin{itemize}[leftmargin=0.15in, label={}]
     \small{\item{
         \textbf{Languages}{: Python, JavaScript, C/C++, SQL (Postgres), HTML/CSS, R, Latex} \\
@@ -223,12 +223,12 @@
 
 %
 %-----------INTERESTS-----------
-\section{\textbf{Interests, other skills and qualities}}
+\section{\textbf{Interests, other skills and qualities} \faStar}
 \begin{itemize}[leftmargin=0.15in, label={}]
     \small{\item{
-        \textbf{Social}{: Knowledge sharing, motivation, mentoring, community building (Data Science Côte d'Ivoire)} \\
-        \textbf{Academic}{: Artificial Intelligence research, reading papers, teaching, deep learning models building and implementation} \\
-        \textbf{Sports}{: Basketball, football} \\
+        \faGroup \ \textbf{Social}{: Knowledge sharing, motivation, mentoring, community building (Data Science Côte d'Ivoire)} \\
+        \faBook \ \textbf{Academic}{: Artificial Intelligence research, reading scientific papers, teaching, deep learning} \\
+        \faSoccerBallO \ \textbf{Sports}{: Basketball, football} \\
         \textbf{Qualities}{: good team spirit, passionate, hard worker} \\
 
     }}
