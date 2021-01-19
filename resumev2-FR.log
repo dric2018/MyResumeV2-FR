@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.12) (preloaded format=pdflatex 2021.1.19)  19 JAN 2021 12:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.12) (preloaded format=pdflatex 2021.1.19)  19 JAN 2021 13:15
 entering extended mode
 **/home/zeusdric/Desktop/cvs/CMU-AFRICA/MyResumeFR/resumev2-FR.tex
 (/home/zeusdric/Desktop/cvs/CMU-AFRICA/MyResumeFR/resumev2-FR.tex
@@ -1299,45 +1299,39 @@ LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
 LaTeX Font Info:    Font shape `T1/lato-TLF/b/it' will be
 (Font)              scaled to size 9.0pt on input line 67.
 )
-Overfull \hbox (12.64665pt too wide) in paragraph at lines 67--68
-[]\T1/lato-TLF/m/n/9 Deployed the machine leaning model to an edge device (Rasp
-bery 
+Overfull \hbox (9.70357pt too wide) in paragraph at lines 64--65
+\T1/lato-TLF/m/n/9 récupération des données issues de capteurs dans une plantat
+ion 
  []
 
 
-Overfull \hbox (3.73212pt too wide) in paragraph at lines 74--75
-\T1/lato-TLF/m/n/9 (username : []\T1/lato-TLF/b/n/9 I_am_Zeus_AI[]\T1/lato-TLF/
-m/n/9 ), Top 100 among zindi data scientists  
+Overfull \hbox (16.42668pt too wide) in paragraph at lines 66--67
+[]\T1/lato-TLF/m/n/9 Développement d'un modèle de machine learning pour l'évalu
+ation 
  []
 
 
-Overfull \hbox (21.31815pt too wide) in paragraph at lines 75--76
-[]\T1/lato-TLF/m/n/9 Co-lead of the platform development group (updates/improve
-ments 
- []
-
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 90.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 90.
-LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
-(Font)              scaled to size 6.0pt on input line 90.
-
-Overfull \hbox (4.74907pt too wide) in paragraph at lines 90--91
-[]\T1/lato-TLF/m/n/9 Classified audio utterances in Luganda and English from Ug
-anda  
+Overfull \hbox (19.68912pt too wide) in paragraph at lines 91--92
+\T1/lato-TLF/m/n/9 d'un modèle de deep learning pour la classification de radio
+graphies 
  []
 
 
-Overfull \hbox (2.46313pt too wide) in paragraph at lines 124--125
-[]\T1/lato-TLF/m/n/9 Knowledge sharing, motivation, mentoring, community buildi
-ng 
+Overfull \hbox (20.78258pt too wide) in paragraph at lines 93--94
+[]\T1/lato-TLF/b/n/9 1er prix ESATIC Hackathon Level 2 (48h - May 2018) : \T1/l
+ato-TLF/m/n/9 Contribution 
  []
 
 
-Overfull \hbox (9.23552pt too wide) in paragraph at lines 125--126
-[]\T1/lato-TLF/m/n/9 Artificial Intelligence research, reading scientific paper
-s, teaching, 
+Overfull \hbox (13.4746pt too wide) in paragraph at lines 93--94
+\T1/lato-TLF/m/n/9 à la réalisation d'un modèle de deep learning destiné à reco
+nnaître 
+ []
+
+
+Overfull \hbox (20.78258pt too wide) in paragraph at lines 94--95
+[]\T1/lato-TLF/b/n/9 1er prix ESATIC Hackathon Level 1 (24h - May 2017) : \T1/l
+ato-TLF/m/n/9 Contribution 
  []
 
 [1
@@ -1359,11 +1353,11 @@ Package logreq Info: Writing requests to 'resumev2-FR.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 39120 strings out of 481551
- 747782 string characters out of 2916349
- 1465736 words of memory out of 3000000
- 55391 multiletter control sequences out of 15000+200000
- 809854 words of font info for 74 fonts, out of 3000000 for 9000
+ 39095 strings out of 481551
+ 747453 string characters out of 2916349
+ 1464736 words of memory out of 3000000
+ 55382 multiletter control sequences out of 15000+200000
+ 785768 words of font info for 66 fonts, out of 3000000 for 9000
  0 hyphenation exceptions out of 8191
  128i,12n,130p,1185b,2369s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/home/zeusdric/.miktex/texmfs/install/fonts/enc/dvips/lato/a_rt66h3.enc}{/ho
@@ -1380,7 +1374,7 @@ l/fonts/type1/typoland/lato/Lato-BoldItalic.pfb></home/zeusdric/.miktex/texmfs/
 install/fonts/type1/typoland/lato/Lato-Italic.pfb></home/zeusdric/.miktex/texmf
 s/install/fonts/type1/typoland/lato/Lato-Regular.pfb>
 Output written on /home/zeusdric/Desktop/cvs/CMU-AFRICA/MyResumeFR/resumev2-FR.
-pdf (1 page, 255598 bytes).
+pdf (1 page, 255482 bytes).
 PDF statistics:
  78 PDF objects out of 1000 (max. 8388607)
  2 named destinations out of 1000 (max. 500000)

@@ -1446,13 +1446,6 @@ INPUT /home/zeusdric/.miktex/texmfs/install/fonts/tfm/typoland/lato/Lato-Bold-T1
 INPUT /home/zeusdric/.miktex/texmfs/install/fonts/tfm/typoland/lato/Lato-BoldItalic-T1-TLF.tfm
 INPUT /home/zeusdric/.miktex/texmfs/install/fonts/tfm/public/fontawesome5/fa5free0solid.tfm
 INPUT /home/zeusdric/.miktex/texmfs/install/fonts/tfm/public/fontawesome5/fa5free2solid.tfm
-INPUT /home/zeusdric/.miktex/texmfs/install/fonts/tfm/public/cm/cmr9.tfm
-INPUT /home/zeusdric/.miktex/texmfs/install/fonts/tfm/public/cm/cmr6.tfm
-INPUT /home/zeusdric/.miktex/texmfs/install/fonts/tfm/public/cm/cmmi9.tfm
-INPUT /home/zeusdric/.miktex/texmfs/install/fonts/tfm/public/cm/cmmi6.tfm
-INPUT /home/zeusdric/.miktex/texmfs/install/fonts/tfm/public/cm/cmsy9.tfm
-INPUT /home/zeusdric/.miktex/texmfs/install/fonts/tfm/public/cm/cmsy6.tfm
-INPUT /home/zeusdric/.miktex/texmfs/install/fonts/tfm/typoland/lato/Lato-Bold-T1-TLF.tfm
 INPUT /home/zeusdric/.miktex/texmfs/install/fonts/vf/typoland/lato/Lato-Bold-T1-TLF.vf
 INPUT /home/zeusdric/.miktex/texmfs/install/fonts/tfm/typoland/lato/Lato-Bold-T1-TLF--base.tfm
 INPUT /home/zeusdric/.miktex/texmfs/install/fonts/vf/typoland/lato/Lato-Bold-T1-TLF.vf
@@ -1479,8 +1472,6 @@ INPUT /home/zeusdric/.miktex/texmfs/install/fonts/vf/typoland/lato/Lato-BoldItal
 INPUT /home/zeusdric/.miktex/texmfs/install/fonts/tfm/typoland/lato/Lato-BoldItalic-T1-TLF--base.tfm
 INPUT /home/zeusdric/.miktex/texmfs/install/fonts/vf/typoland/lato/Lato-Regular-T1-TLF.vf
 INPUT /home/zeusdric/.miktex/texmfs/install/fonts/tfm/typoland/lato/Lato-Regular-T1-TLF--base.tfm
-INPUT /home/zeusdric/.miktex/texmfs/install/fonts/vf/typoland/lato/Lato-Bold-T1-TLF.vf
-INPUT /home/zeusdric/.miktex/texmfs/install/fonts/tfm/typoland/lato/Lato-Bold-T1-TLF--base.tfm
 INPUT /home/zeusdric/Desktop/cvs/CMU-AFRICA/MyResumeFR/resumev2-FR.aux
 INPUT /home/zeusdric/Desktop/cvs/CMU-AFRICA/MyResumeFR/resumev2-FR.out
 INPUT /home/zeusdric/Desktop/cvs/CMU-AFRICA/MyResumeFR/resumev2-FR.out
