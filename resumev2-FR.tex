@@ -1,0 +1,176 @@
+\documentclass[11pt,a4paper,ragged2e, withhyper]{altacv}
+\geometry{left=2cm,right=10cm,marginparwidth=6.8cm,marginparsep=1.2cm,top=1.25cm,bottom=1.25cm}
+\ifxetexorluatex
+  \setmainfont{Carlito}
+\else
+  \usepackage[utf8]{inputenc}
+  \usepackage[T1]{fontenc}
+  \usepackage[default]{lato}
+  \usepackage[super]{nth}
+  \usepackage[french]{babel}
+  \hypersetup{
+    colorlinks=true,
+    filecolor=cyan,      
+    urlcolor=magenta,
+}
+
+\fi
+\definecolor{VividPurple}{HTML}{000000}
+\definecolor{SlateGrey}{HTML}{2E2E2E}
+\definecolor{LightGrey}{HTML}{2E2E2E}
+\colorlet{heading}{VividPurple}
+\colorlet{accent}{VividPurple}
+\colorlet{emphasis}{SlateGrey}
+\colorlet{body}{LightGrey}
+\renewcommand{\itemmarker}{{\small\textbullet}}
+\renewcommand{\ratingmarker}{\faCircle}
+%\addbibresource{sample.bib}
+
+\begin{document}
+\name{Cédric P-E. MANOUAN}
+\tagline{Data Evangelist / Software \& AI developer}
+% Cropped to square from https://en.wikipedia.org/wiki/Marissa_Mayer#/media/File:Marissa_Mayer_May_2014_(cropped).jpg, CC-BY 2.0
+\photo{3.3cm}{profile.jpeg}
+\personalinfo{%
+      % Not all of these are required!
+      % You can add your own with \printinfo{symbol}{detail}
+      \email{manouancedric@gmail.com}
+      \phone{(+221) 78-596-8983}
+      %  \mailaddress{Address, Street, 00000 County}
+      \location{Dakar, Medina - Senegal}
+      \linkedin{cédric-pascal-emmanuel-manouan-ba9ba1181 }
+      \github{dric2018}
+      \homepage{dric2018.github.io}
+      %\twitter{@cedric_manouan}
+      %   \orcid{orcid.org/0000-0000-0000-0000} % Obviously making this up too. If you want to use this field (and also other academicons symbols), add "academicons" option to \documentclass{altacv}
+}
+
+%% Make the header extend all the way to the right, if you want.
+\begin{fullwidth}
+      \makecvheader
+\end{fullwidth}
+
+%% Depending on your tastes, you may want to make fonts of itemize environments slightly smaller
+\AtBeginEnvironment{itemize}{\small}
+
+%% Provide the file name containing the sidebar contents as an optional parameter to \cvsection.
+%% You can always just use \marginpar{...} if you do
+%% not need to align the top of the contents to any
+%% \cvsection title in the "main" bar.
+\cvsection[page1sidebar]{Experience/Projects}
+
+\cvevent{Developer Intern - PSNDEA}{Web/IoT/Machine Learning}{April 2019 -- June 2019}{Abidjan, Côte d'Ivoire}
+\begin{itemize}
+      \item{Built an Internet of Things (IoT) system for data acquisition in a cassava field}
+      \item{Developed a REST CRUD API based on NodeJs and MySQL to store data from both sensors and farmers inputs}
+      \item{Developed a regression model to predict the yield of a given cassava field based on real-time and stored data}
+      \item{Deployed the machine leaning model to an edge device (Raspbery Pi 3) using tensorflowJS}
+\end{itemize}
+
+\divider
+
+\cvevent{Data science pratitionner - \href{https://www.zindi.africa}{Zindi}}{}{June 2020 -- Present}{remote}
+\begin{itemize}
+      \item{Participating in competitions and hackathons on the platform (username : \href{https://zindi.africa/users/I_am_Zeus_AI/competitions}{\textbf{I\_am\_Zeus\_AI}}), Top 100 among zindi data scientists}
+      \item{Co-lead of the platform development group (updates/improvements and new features)}
+\end{itemize}
+
+
+%\cvevent{Machine Learning}{Coursera}{Oct 2018 - Jan 2019}{Online}
+%\begin{itemize}
+%      \item Supervised Learning, worked on SL to train model to recognize the pattern in given data with more efficiently
+%            \smallskip
+%\end{itemize}
+
+%\divider
+
+\cvsection{Achievements}
+\smallskip
+\begin{itemize}
+      \item \textbf{\nth{7}/255 } (\textbf{\href{https://zindi.africa/competitions/giz-nlp-agricultural-keyword-spotter/leaderboard}{Team wakanda on the leaderboard}}): \\Classified audio utterances in Luganda and English from Uganda
+      \item \textbf{\nth{7}/104 } (\textbf{\href{https://zindi.africa/competitions/runmila-ai-institute-minohealth-ai-labs-tuberculosis-classification-via-x-rays-challenge/leaderboard}{Team DataLabCI on the leaderboard}}): \\Built an AI system to classify Tuberculosis and Normal X-Ray images for educational purpose
+      \item \textbf{\nth{3} prize } (\textbf{ \href{https://zindi.africa/competitions/spot-the-mask-challenge}{Team TheCIA on the leadernoard}}): \\Predicted whether a person in an image is wearing a face mask
+      \item \textbf{\nth{1} prize ESATIC Hackathon Level 2 (48h - May 2018) :} \\Contributed to the development of a deep learning model to recognize west African bank notes and coins
+      \item \textbf{\nth{1} prize ESATIC Hackathon Level 1 (24h - May 2017) :} \\Contributed to research and writing in C++ the encryption algorithm behind an executable program
+
+\end{itemize}
+
+\cvsection{TECHNICAL SKILLS}
+\smallskip
+\begin{itemize}
+      \item Git, Docker, Amazon EC2/ECS, VS Code, Jupyter notebooks, Google Collaboratory
+            \smallskip
+
+      \item Ubuntu, Windows, Mac OS
+            \smallskip
+\end{itemize}
+
+%\cvsection{PERSONAL SKILLS}
+%\smallskip
+%\begin{itemize}
+%    \item Having leadership qualities.
+%          \smallskip
+%    \item Good team spirit \& comfortable working independently.
+%          \smallskip
+%    \item Passionate \& Hard worker.
+%         \smallskip
+%
+%    \item Ability to take initiative to solve problems.
+%\end{itemize}
+
+\cvsection{Hobbies/INTERESTS}
+\smallskip
+\begin{itemize}
+      \item Knowledge sharing, motivation, mentoring, community building (Data Science Côte d'Ivoire)
+      \item Artificial Intelligence research, reading scientific papers, teaching, deep learning
+      \item Basketball, football
+\end{itemize}
+
+% \cvevent{Product Engineer}{Google}{23 June 1999 -- 2001}{Palo Alto, CA}
+
+% \begin{itemize}
+% \item Joined the company as employe \#20 and female employee \#1
+% \item Developed targeted advertisement in order to use user's search queries and show them related ads
+% \end{itemize}
+
+%\cvsection{A Day of My Life}
+
+% Adapted from @Jake's answer from http://tex.stackexchange.com/a/82729/226
+% \wheelchart{outer radius}{inner radius}{
+% comma-separated list of value/text width/color/detail}
+% Some ad-hoc tweaking to adjust the labels so that they don't overlap
+% \wheelchart{1.5cm}{0.5cm}{%
+%   10/10em/accent!30/Sleeping \& dreaming about work,
+%   25/9em/accent!60/Public resolving issues with Yahoo!\ investors,
+%   5/13em/accent!10/\footnotesize\\[1ex]New York \& San Francisco Ballet Jawbone board member,
+%   20/15em/accent!40/Spending time with family,
+%   5/8em/accent!20/\footnotesize Business development for Yahoo!\ after the Verizon acquisition,
+%   30/9em/accent/Showing Yahoo!\ employees that their work has meaning,
+%   5/8em/accent!20/Baking cupcakes
+% }
+
+\clearpage
+
+% \cvsection[page2sidebar]{Publications}
+
+\nocite{*}
+
+% \printbibliography[heading=pubtype,title={\printinfo{\faBook}{Books}},type=book]
+
+% \divider
+
+% \printbibliography[heading=pubtype,title={\printinfo{\faFileTextO}{Journal Articles}}, type=article]
+
+% \divider
+
+% \printbibliography[heading=pubtype,title={\printinfo{\faGroup}{Conference Proceedings}},type=inproceedings]
+
+% %% If the NEXT page doesn't start with a \cvsection but you'd
+% %% still like to add a sidebar, then use this command on THIS
+% %% page to add it. The optional argument lets you pull up the
+% %% sidebar a bit so that it looks aligned with the top of the
+% %% main column.
+% % \addnextpagesidebar[-1ex]{page3sidebar}
+
+
+\end{document}
